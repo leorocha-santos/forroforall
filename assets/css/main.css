@@ -46,5 +46,5 @@
   }
 
   .foot {
-    background-color: black;
+    background-image: linear-gradient(to bottom, rgb(83, 83, 80), rgb(0, 0, 0));
   }
