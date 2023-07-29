@@ -1,0 +1,50 @@
+.head {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: cursive;
+    color: white;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(83, 83, 80));
+}
+
+.demo-wrap {
+    position: relative;
+    /* height: 800px; */
+    width: 100%;
+  }
+  
+  .demo-wrap:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    background-image: url("../images/dois_no_forro.jpg"); /*"Dois no Forró" by Fatissima is marked with Public Domain Mark 1.0. To view the terms, visit https://creativecommons.org/publicdomain/mark/1.0/?ref=openverse.*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .demo-content {
+    position: relative;
+    color: darkslateblue;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    /* max-width: 800px; */
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .demo-content > h1 {
+    color: #036;
+  }
+  .demo-content > p {
+    text-align: justify;
+  }
+
+  .foot {
+    background-color: black;
+  }
